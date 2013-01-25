@@ -16,18 +16,16 @@ Unfortunately, using a border means it's a little hard to tell if some images ar
 
 In the future I might make a version of this script that integrates death2y's Bad Album Art script and his WhatIMG Upload Helper script [i](or the [url=https://what.cd/forums.php?action=viewthread&threadid=166516]"One-click URL upload to WhatIMG" script[/url] by [url=https://what.cd/user.php?id=605]tobbez[/url])[/i], but for now I will leave it separate.  Thanks to [url=https://what.cd/user.php?id=171682]Erbavore[/url]'s [url=https://what.cd/forums.php?action=viewthread&threadid=163016]"Collage Export Utility" script[/url] for the code that grabs the image URLs from within the unordered list only and not the whole page.
 
-Enjoy!
-
-
-
 If you want to experiment with using a base64-encoded image to replace a bad-hosted album cover, just replace the two [code].style[/code] lines with this code snippet:
 [i](I never got around to writing in the "REHOST ME!" in the middle of the image.)[/i]
-[code]
-coverElemNodeList[i].src = 
-"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2AgMAAABgyY+CAAAABGdBTUEAALGPC/xhBQAAAAlQTFRFAAAA7Rwk////o0eFZAAAADVJREFUSMdjYBhIEIobBIxKD1LpqFVYwNRR6VHpUelR6VHpUelR6VHpUekRIT3aRh5c0gMHAADLOmi/TeqmAAAAAElFTkSuQmCC";
+[hide=Code][code]coverElemNodeList[i].src = 
+"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2AgMAAABgyY+CAAAABGdBTUEAA
+LGPC/xhBQAAAAlQTFRFAAAA7Rwk////o0eFZAAAADVJREFUSMdjYBhIEIobBIxKD1LpqFVYwNRR6VHpU
+elR6VHpUelR6VHpUekRIT3aRh5c0gMHAADLOmi/TeqmAAAAAElFTkSuQmCC";
 				// MSPaint to make a 118x118 image, 
 				// shrunk with http://tinypng.org/,
 				// converted with http://www.base64-image.de/
-[/code]
+[/code][/hide]
+[i](The long string was screwing up the line wrapping of the Layer Cake stylesheet so I put in some line breaks -- be sure to remove those!)[/i].
 
-[i](Hopefully that string doesn't bork your stylesheet -- it appears to be screwing up Layer Cake)[/i].
+Enjoy!
