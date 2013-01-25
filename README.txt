@@ -18,7 +18,7 @@ In the future I might make a version of this script that integrates death2y's Ba
 
 If you want to experiment with using a base64-encoded image to replace a bad-hosted album cover, just replace the two [code].style[/code] lines with this code snippet:
 [i](I never got around to writing in the "REHOST ME!" in the middle of the image.)[/i]
-[hide=Code][code]coverElemNodeList[i].src = 
+[hide=Code][code]imgElement.src = 
 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2AgMAAABgyY+CAAAABGdBTUEAA
 LGPC/xhBQAAAAlQTFRFAAAA7Rwk////o0eFZAAAADVJREFUSMdjYBhIEIobBIxKD1LpqFVYwNRR6VHpU
 elR6VHpUelR6VHpUekRIT3aRh5c0gMHAADLOmi/TeqmAAAAAElFTkSuQmCC";
