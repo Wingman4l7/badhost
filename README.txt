@@ -1,6 +1,8 @@
 So I liked the [url=https://what.cd/forums.php?action=viewthread&threadid=56191]"Bad Album Art" script[/url] that [url=https://what.cd/user.php?id=79731]death2y[/url] wrote, and I thought that it'd be nice if there was something like that, but for collages.  
 
-[align=center]I present to you [b]What.CD Bad Covers: Collage Edition[/b].
+[align=center]I present to you 
+[b]What.CD Bad Covers: Collage Edition[/b].
+https://github.com/Wingman4l7/badhost
 
 [URL=https://whatimg.com/viewer.php?file=w5126f.png][IMG]https://whatimg.com/i/w5126f_thumb.png[/IMG][/URL][/align]
 
