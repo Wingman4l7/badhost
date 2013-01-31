@@ -4,6 +4,7 @@
 // @description    Highlights all album covers in a collage not on a whitelisted host.
 // @include        http*://*what.cd/collages.php?id=*
 // @version        1.0
+// @author         Wingman4l7
 // ==/UserScript==
 
 //To whitelist a host, add them to this list as a regex matching their domain
